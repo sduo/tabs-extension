@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.spin {
+    min-height: 100vh;
+    max-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    .header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-inline: 2vh;
+        .logo {
+            font-weight: bolder;
+            flex-grow: 1;            
+        }  
+        .ant-space-item:first-child {
+            display: flex;
+        }
+    }
+    .content {
+        flex-grow: 1;
+        .options {
+            margin: 5vh 25vw 0 25vw;
+            width: 50vw;
+        }
+    }
+    .footer {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+}

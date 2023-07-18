@@ -1,0 +1,14 @@
+{
+    "titleOptions":{
+        "message": "Options"
+    },
+    "extensionDescription": {
+        "message": "A extension for tabs"
+    },
+    "commandSave": {
+        "message": "Save current tab to Tabs"
+    },
+    "commandSaveAll": {
+        "message": "Save all tabs to Tabs"
+    }
+}

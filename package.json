@@ -1,0 +1,59 @@
+{
+  "name": "tabs-extension-chromium",
+  "displayName": "Tabs",
+  "version": "0.0.1",
+  "description": "__MSG_extensionDescription__",
+  "author": "sduo",
+  "scripts": {
+    "dev": "plasmo dev",
+    "build": "plasmo build",
+    "test": "plasmo test"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.1.4",
+    "@plasmohq/storage": "^1.7.0",
+    "antd": "^5.7.0",
+    "plasmo": "0.80.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-intl": "^6.4.4"
+  },
+  "devDependencies": {
+    "@plasmohq/prettier-plugin-sort-imports": "3.6.4",
+    "@types/chrome": "0.0.239",
+    "@types/node": "20.3.2",
+    "@types/react": "18.2.14",
+    "@types/react-dom": "18.2.6",
+    "prettier": "2.8.8",
+    "typescript": "5.1.6"
+  },
+  "manifest": {
+    "default_locale": "zh_CN",
+    "browser_specific_settings": {
+      "gecko": {
+        "id": "firefox@sduo.dev",
+        "strict_min_version": "42.0"
+      }
+    },
+    "host_permissions": [
+      "https://*/*"
+    ],
+    "permissions": [
+      "tabs"
+    ],
+    "commands": {
+      "tabs": {
+        "suggested_key": {
+          "default": "$PLASMO_PUBLIC_SAVE_ALL"
+        },
+        "description": "__MSG_commandSaveAll__"
+      },
+      "tab": {
+        "suggested_key": {
+          "default": "$PLASMO_PUBLIC_SAVE"
+        },
+        "description": "__MSG_commandSave__"
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+    "titleOptions": {
+        "message": "选项"
+    },
+    "extensionDescription": {
+        "message": "Tabs 的浏览器扩展"
+    },
+    "commandSave": {
+        "message": "保存当前标签页到 Tabs"
+    },
+    "commandSaveAll": {
+        "message": "保存所有标签页到 Tabs"
+    }
+}
