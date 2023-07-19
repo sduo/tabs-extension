@@ -1,7 +1,7 @@
 {
   "name": "tabs-extension",
   "displayName": "Tabs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "__MSG_extensionDescription__",
   "author": "sduo",
   "scripts": {
@@ -13,7 +13,7 @@
     "@ant-design/icons": "^5.1.4",
     "@plasmohq/storage": "^1.7.0",
     "antd": "^5.7.0",
-    "plasmo": "0.80.0",
+    "plasmo": "0.81.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-intl": "^6.4.4"

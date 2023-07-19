@@ -156,6 +156,7 @@ export const tabs = {
         tabs:()=>{
             console.log('events.tabs');
             chrome.tabs.query({
+                currentWindow: true
             }).then((tasks) => {
                 console.log('tabs.query', tasks);
                 tabs.actions.run(tasks);
